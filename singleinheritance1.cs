@@ -1,5 +1,5 @@
 ﻿/*
- Que:- Program to check whether given no is psitive or negative using single inheritance.
+ Que:- Program to display fibonacci series for given number of times using single inheritance.
  
  */
 
