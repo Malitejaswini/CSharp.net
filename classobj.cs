@@ -1,5 +1,5 @@
 ﻿/*
-    Que:-Demonstrate use of function and object.
+    Que:-Demonstrate use of class and object.
  */
 using System;
 using System.Collections.Generic;
