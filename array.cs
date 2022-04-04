@@ -9,17 +9,20 @@ namespace array
     {
         static void Main(string[] args)
         {
-            int []a=new int[10];
-            for(int i=0;i<10;i++)
+            Console.WriteLine("Enter the size of array:- ");
+            int size = Convert.ToInt32(Console.ReadLine());
+            int[] n = new int[size];
+            Console.WriteLine("Enter array elements:-");
+            for (int i = 0; i < size; i++)
             {
-                Console.WriteLine("Elements are:-");
-                a[i]=Convert.ToInt32(Console.ReadLine());
+                n[i] = Convert.ToInt32(Console.ReadLine());
             }
-            for (int i = 0; i < 10; i++)
+            Console.WriteLine(".....Array.....");
+            for (int i = 0; i < size; i++)
             {
-                Console.WriteLine(a[i]);
+                Console.WriteLine(n[i]);
             }
-                Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
